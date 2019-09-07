@@ -1,0 +1,17 @@
+.logo {
+    /* float: left;
+    width: 120px;
+    height: auto;
+    margin: 16px 16px 0 0; */
+    width: 120px;
+    height: 31px;
+    background-image: url('../images/logo.png');
+    background-size: 120px auto;
+    background-repeat:no-repeat;
+    margin: 18px 28px 16px 0;
+    float: left;
+}
+.content {
+    height: calc(100vh - 65px);
+    /* min-height: 280px; */
+}

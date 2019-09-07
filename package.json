@@ -1,0 +1,21 @@
+{
+  "name": "edu-pro",
+  "version": "1.0.0",
+  "description": "智慧教育管理平台",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "LD",
+  "license": "ISC",
+  "devDependencies": {
+    "umi": "^2.8.17",
+    "umi-plugin-react": "^1.9.15"
+  },
+  "dependencies": {
+    "ant-design-pro": "^2.3.2",
+    "antd": "^3.21.4",
+    "axios": "^0.19.0"
+  }
+  
+}
