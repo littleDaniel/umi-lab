@@ -20,7 +20,7 @@ export function _onCreate() {
     app.use(plugin);
   });
   
-  app.model({ namespace: 'user', ...(require('G:/edu-pro/src/models/user.js').default) });
+  app.model({ namespace: 'user', ...(require('g:/umi-pro/umi-lab/src/models/user.js').default) });
   return app;
 }
 

@@ -1,4 +1,5 @@
 export default {
+  publicPath: "./",
   plugins: [
     [
       "umi-plugin-react",  // antd可按需加载
