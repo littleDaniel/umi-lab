@@ -34,7 +34,7 @@ const routes = [
           {
             component: () =>
               React.createElement(
-                require('g:/umi-pro/umi-lab/node_modules/umi-build-dev/lib/plugins/404/NotFound.js')
+                require('d:/Program Files/reactProject/umi-lab/node_modules/umi-build-dev/lib/plugins/404/NotFound.js')
                   .default,
                 { pagesPath: 'src/pages', hasRoutesInConfig: true },
               ),
@@ -48,7 +48,7 @@ const routes = [
       {
         component: () =>
           React.createElement(
-            require('g:/umi-pro/umi-lab/node_modules/umi-build-dev/lib/plugins/404/NotFound.js')
+            require('d:/Program Files/reactProject/umi-lab/node_modules/umi-build-dev/lib/plugins/404/NotFound.js')
               .default,
             { pagesPath: 'src/pages', hasRoutesInConfig: true },
           ),
@@ -62,7 +62,7 @@ const routes = [
   {
     component: () =>
       React.createElement(
-        require('g:/umi-pro/umi-lab/node_modules/umi-build-dev/lib/plugins/404/NotFound.js')
+        require('d:/Program Files/reactProject/umi-lab/node_modules/umi-build-dev/lib/plugins/404/NotFound.js')
           .default,
         { pagesPath: 'src/pages', hasRoutesInConfig: true },
       ),
