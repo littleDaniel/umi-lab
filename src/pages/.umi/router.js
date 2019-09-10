@@ -24,22 +24,8 @@ const routes = [
       },
       {
         path: '/sys',
-        component: require('../../layouts/model/sys').default,
-        routes: [
-          {
-            path: '/sys',
-            component: require('../sys').default,
-            exact: true,
-          },
-          {
-            component: () =>
-              React.createElement(
-                require('D:/Program Files/reactProject/umi-lab/node_modules/umi-build-dev/lib/plugins/404/NotFound.js')
-                  .default,
-                { pagesPath: 'src/pages', hasRoutesInConfig: true },
-              ),
-          },
-        ],
+        component: require('../sys').default,
+        exact: true,
       },
       {
         component: require('../404').default,
@@ -48,7 +34,7 @@ const routes = [
       {
         component: () =>
           React.createElement(
-            require('D:/Program Files/reactProject/umi-lab/node_modules/umi-build-dev/lib/plugins/404/NotFound.js')
+            require('d:/Program Files/reactProject/umi-lab/node_modules/umi-build-dev/lib/plugins/404/NotFound.js')
               .default,
             { pagesPath: 'src/pages', hasRoutesInConfig: true },
           ),
@@ -62,7 +48,7 @@ const routes = [
   {
     component: () =>
       React.createElement(
-        require('D:/Program Files/reactProject/umi-lab/node_modules/umi-build-dev/lib/plugins/404/NotFound.js')
+        require('d:/Program Files/reactProject/umi-lab/node_modules/umi-build-dev/lib/plugins/404/NotFound.js')
           .default,
         { pagesPath: 'src/pages', hasRoutesInConfig: true },
       ),

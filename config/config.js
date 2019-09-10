@@ -24,13 +24,7 @@ export default {
         },
         {
           path: '/sys',
-          component: '../layouts/model/sys',
-          routes: [
-            {
-              path: '/sys',
-              component: './sys'
-            }
-          ]
+          component: './sys'
         },
         {
           component: './404'
