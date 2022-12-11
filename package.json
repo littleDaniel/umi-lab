@@ -11,7 +11,7 @@
   "author": "LD",
   "license": "ISC",
   "devDependencies": {
-    "umi": "^2.9.3",
+    "umi": "^4.0.36",
     "umi-plugin-react": "^1.9.19"
   },
   "dependencies": {
